@@ -154,7 +154,7 @@ onMounted(() => {
 .main {
   min-height: calc(100vh - 80px);
   padding: 2rem 0;
-  background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
+  background: linear-gradient(135deg, #E6F3FF 0%, #CCE7FF 100%);
 }
 
 .fade-enter-active,

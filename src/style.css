@@ -47,7 +47,7 @@ h6 {
   line-height: 1.6;
   font-weight: 400;
   color: #1E293B;
-  background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
+  background: linear-gradient(135deg, #E6F3FF 0%, #CCE7FF 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -56,7 +56,7 @@ h6 {
 
 #app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
+  background: linear-gradient(135deg, #E6F3FF 0%, #CCE7FF 100%);
 }
 
 /* Scrollbar styling */
@@ -65,16 +65,16 @@ h6 {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F1F5F9;
+  background: #E6F3FF;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #CBD5E1;
+  background: #CCE7FF;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #94A3B8;
+  background: #B3DAFF;
 }
 
 /* Focus styles */
