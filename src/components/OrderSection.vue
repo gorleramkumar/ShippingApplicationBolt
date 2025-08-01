@@ -251,7 +251,7 @@ const handleSubmit = async () => {
       toName: form.value.toName.trim(),
       toAddress: form.value.toAddress.trim(),
       toPostCode: form.value.toPostCode.trim(),
-      shippingPriority: form.value.shippingPriority,
+      shippingPriority: form.value.shippingPriority as 'standard' | 'express',
       price: selectedRate.value!.price,
       createdAt: new Date().toISOString(),
       trackingNumber: generateTrackingNumber(),
